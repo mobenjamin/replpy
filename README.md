@@ -42,4 +42,4 @@ The following functions are supported:
 * `tright` (rotate the turtle x degree to the right)
 * `tcircle` (draw a circle with radius x)
 * `tsize` (set pen size of the turtle)
-* `tpiral` (draw a rainbow spiral with x steps)
+* `tspiral` (draw a rainbow spiral with x steps)
