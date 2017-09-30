@@ -29,7 +29,7 @@ The following functionality is currently implemented:
 * `\>`
 * `=`
 * `dsin` (returns sin of x degree)
-* `rins` (returns sin of x radians)
+* `rsin` (returns sin of x radians)
 * `pi`
 * `e`
 
