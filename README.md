@@ -18,7 +18,6 @@ The following functionality is currently implemented:
 * `car`
 * `cdr`
 * `cons`
-* `load` (loads a file)
 
 ### Math
 * `\+`
@@ -35,6 +34,7 @@ The following functionality is currently implemented:
 
 ### Misc
 * `print`
+* `load` (loads a file)
 
 ### Turtle Graphics
 This opens a graphic window when calling `(tinit w h)`. `w` and `h` are the height and width of the window.
