@@ -10,7 +10,7 @@ The `test.scm` file contains a few fancy lambda definitions to test the function
 ## Build in 
 The following functionality is currently implemented:
 
-### Scheme
+### Scheme (according to rsr5)
 * `define`
 * `if`
 * `cond`
