@@ -1,0 +1,8 @@
+(print "loading test.scm")
+(define a 100)
+(define adder (lambda (num) (lambda (x) (+ num x))))
+(define foo (lambda (a b) (- a b) (+ a b)))
+(define foo (lambda (b) (+ 1 b) b))
+(define bla (lambda (x) (print "Hallo") (print "World") (+ x 100)))
+(tinit 800 600)
+(tforward 100)
