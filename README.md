@@ -1,7 +1,7 @@
 # ReplPy
 
 ## Usage
-Just run the main.py with Python 2.7. Since Tk is part of this project, it might be necessary to install that (use `pacman -S tk` if using Arch Linux).
+Just run the main.py with Python 2.7. Since Tk is part of this project, it might be necessary to install that (use `pacman -S tk` if using Arch Linux). You can exit the program using Ctrl+C (which doesn't work after opening a turtle window. You have to press Enter after Ctrl+C) or by typing `:exit`. The `test.scm` file contains a few fancy lambda definitions to test the functionality. It also opens a turtle window and moves the turtle 100 forward. Load the file by typing `(load "test.scm")`.
 
 ## Build in 
 The following functionality is currently implemented:
