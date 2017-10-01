@@ -7,6 +7,8 @@ You can exit the program using Ctrl+C (which doesn't work after opening a turtle
 
 The `test.scm` file contains a few fancy lambda definitions to test the functionality. It also opens a turtle window and moves the turtle 100 forward. Load the file by typing `(load "test.scm")`.
 
+A second file to load was added (courtesy to Mario): `(load "dragon.scm")`. This opens a turtle window an paints a nice dragon (takes a few seconds).
+
 ## Build in 
 The following functionality is currently implemented:
 
