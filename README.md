@@ -47,3 +47,4 @@ The following functions are supported:
 * `tcircle` (draw a circle with radius x)
 * `tsize` (set pen size of the turtle)
 * `tspiral` (draw a rainbow spiral with x steps)
+* `tspeed` (apparently the turtle is too slow for some people. Use 0 for no animation and 1-10 to speed it up. Default is 6)

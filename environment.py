@@ -63,4 +63,5 @@ class Environment:
         env.add_to_env("tcircle", schemeobj.SchemeObject(schemeobj.eval_tcircle).create_build_in_obj())
         env.add_to_env("tsize", schemeobj.SchemeObject(schemeobj.eval_tsize).create_build_in_obj())
         env.add_to_env("tspiral", schemeobj.SchemeObject(schemeobj.eval_tspiral).create_build_in_obj())
+        env.add_to_env("tspeed", schemeobj.SchemeObject(schemeobj.eval_tspeed).create_build_in_obj())
         return env

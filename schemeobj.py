@@ -454,3 +454,17 @@ def eval_tspiral(value, env):
                 tess.forward(x)
                 tess.left(59)
     return None
+
+
+def eval_tspeed(value, env):
+    if len(value) != 1:
+        print("exactly one argument needed")
+    elif value[0].eval(env).type != "number":
+        print("argument must be of type \"number\"")
+    else:
+        tess = env.get_from_env("in_build_turtle")
+        if tess is None:
+            print("no turtle to speed up")
+        else:
+            tess.speed(value[0].eval(env).value)
+    return None
